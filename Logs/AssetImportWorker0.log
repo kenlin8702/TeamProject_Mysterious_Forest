@@ -1,0 +1,1230 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'zh' Physical Memory: 32665 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Documents/GitHub/TeamProject_Mysterious_Forest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65369
+Successfully changed project path to: C:/Users/USER/Documents/GitHub/TeamProject_Mysterious_Forest
+C:/Users/USER/Documents/GitHub/TeamProject_Mysterious_Forest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Documents/GitHub/TeamProject_Mysterious_Forest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001621 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (302ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (122ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (32ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002147 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (634ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 2.159000 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.062300 ms MarkObjects: 1.905900 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/遊戲畫面.unity
+  artifactKey: Guid(ccf1396975674dc46b979da8747cf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/遊戲畫面.unity using Guid(ccf1396975674dc46b979da8747cf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147ff6ea00c8740d36c82989c1281fb5') in 0.012677 seconds 
+  Import took 0.015089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.950618 seconds.
+  path: Assets/Script/CharacterAI.cs
+  artifactKey: Guid(f2d9981a1a95f914b9a971915b0d16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CharacterAI.cs using Guid(f2d9981a1a95f914b9a971915b0d16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041e2c3aae6841dc80ac27ee3791899') in 0.013499 seconds 
+  Import took 0.015813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011297 seconds.
+  path: Assets/Script/CharacterAI.cs
+  artifactKey: Guid(f2d9981a1a95f914b9a971915b0d16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CharacterAI.cs using Guid(f2d9981a1a95f914b9a971915b0d16d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041e2c3aae6841dc80ac27ee3791899') in 0.002398 seconds 
+  Import took 0.004677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275396 seconds.
+  path: Assets/Script/Car.cs
+  artifactKey: Guid(c41f29f33c53ae1408bb9a5364e49f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Car.cs using Guid(c41f29f33c53ae1408bb9a5364e49f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c495c94ec531fb15a62ed2eaa32a4914') in 0.005947 seconds 
+  Import took 0.008457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.721 seconds
+Domain Reload Profiling:
+	ReloadAssembly (721ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 2.194300 ms (FindLiveObjects: 0.143600 ms CreateObjectMapping: 0.060000 ms MarkObjects: 1.977700 ms  DeleteObjects: 0.012600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62.314359 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Col M.asset
+  artifactKey: Guid(6e00a3e61166983498d1032accdd050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Col M.asset using Guid(6e00a3e61166983498d1032accdd050e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ab9187cab8f3be94f4f827f59e784f') in 0.045005 seconds 
+  Import took 0.047795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row L 1.asset
+  artifactKey: Guid(f2bc4655b67dd264db866488c5a673d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row L 1.asset using Guid(f2bc4655b67dd264db866488c5a673d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3f1b5ef473b1b26138101ed23cf220') in 0.007741 seconds 
+  Import took 0.010048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row R.asset
+  artifactKey: Guid(1ce7894c85360c24d8da53ebffb9cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row R.asset using Guid(1ce7894c85360c24d8da53ebffb9cc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dd78098c98dac793120a8c6dacf710') in 0.011536 seconds 
+  Import took 0.013937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 L B.asset
+  artifactKey: Guid(5590c8e582ebd134db3f3fdb60fce6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 L B.asset using Guid(5590c8e582ebd134db3f3fdb60fce6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac5177ab0c3e9285d13ee72f992f655') in 0.007408 seconds 
+  Import took 0.009865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken M 1.asset
+  artifactKey: Guid(7f7721ecb5688b84388b7fd0a55fc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken M 1.asset using Guid(7f7721ecb5688b84388b7fd0a55fc9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a8cec7576bae182a42d390a68e36a2') in 0.007733 seconds 
+  Import took 0.009972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 5.asset
+  artifactKey: Guid(110945e2aaa2b38468f58594243a0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 5.asset using Guid(110945e2aaa2b38468f58594243a0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc7b3b5b00d84116078515835d6eb08') in 0.009300 seconds 
+  Import took 0.011683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 6.asset
+  artifactKey: Guid(bf3e7019a51014a468ebe0b434ce96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 6.asset using Guid(bf3e7019a51014a468ebe0b434ce96c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2d97b388d0ed7bb7b4dfe92fa383a3') in 0.007478 seconds 
+  Import took 0.009788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TL 1.asset
+  artifactKey: Guid(3b009e0766baf6647923858259c4b3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TL 1.asset using Guid(3b009e0766baf6647923858259c4b3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6051978010595bc260f4a5e9108d82') in 0.009121 seconds 
+  Import took 0.011384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/調色盤/TX Tileset Ground_0.asset
+  artifactKey: Guid(7151fc90d83a2f447a8f71423b3cd421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_0.asset using Guid(7151fc90d83a2f447a8f71423b3cd421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd9ad077aa67b4638288822b8151fd3') in 0.007442 seconds 
+  Import took 0.010005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken L 1.asset
+  artifactKey: Guid(4db5b72060a69744f9ce0f10648d3a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken L 1.asset using Guid(4db5b72060a69744f9ce0f10648d3a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2fd55aa6250e5331af692628f3fc9e') in 0.008980 seconds 
+  Import took 0.011258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/調色盤/TX Tileset Ground_3.asset
+  artifactKey: Guid(420f289bfaf1bef43ab8a45b1ec72fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_3.asset using Guid(420f289bfaf1bef43ab8a45b1ec72fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db1113675544a17e0155caea786605') in 0.008781 seconds 
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/調色盤/TX Tileset Ground_13 1.asset
+  artifactKey: Guid(13078391291ab7d498582a17bcdbf5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_13 1.asset using Guid(13078391291ab7d498582a17bcdbf5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf901bb732c932e46257e3f3ed003a3') in 0.010018 seconds 
+  Import took 0.012465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/調色盤/TX Tileset Ground_10.asset
+  artifactKey: Guid(7d818404c1617f943b86c586422785bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_10.asset using Guid(7d818404c1617f943b86c586422785bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98455d39aa9a5d70261f12469a4a12ee') in 0.008457 seconds 
+  Import took 0.010698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/調色盤/TX Tileset Ground_18 1.asset
+  artifactKey: Guid(eef82c502657df54e83efc435a4d9dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_18 1.asset using Guid(eef82c502657df54e83efc435a4d9dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9eda98ab7fcd41759396c597491d951') in 0.007509 seconds 
+  Import took 0.009918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken R 1.asset
+  artifactKey: Guid(5a7d5bfd31cb3d045bf7cf8fb7023e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken R 1.asset using Guid(5a7d5bfd31cb3d045bf7cf8fb7023e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e3aea7e68da5b3516f3486efdfae81') in 0.007499 seconds 
+  Import took 0.009843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground_2.asset
+  artifactKey: Guid(a052e3765dc4ecc42b9092c95773b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_2.asset using Guid(a052e3765dc4ecc42b9092c95773b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2551a098f1187b0194fba95210949a9f') in 0.008769 seconds 
+  Import took 0.011191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TL.asset
+  artifactKey: Guid(bd45ab4b7d590b249b0f71c85a87c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TL.asset using Guid(bd45ab4b7d590b249b0f71c85a87c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc09cc74ad975c3030c80270aa13804f') in 0.007798 seconds 
+  Import took 0.010066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_4.asset
+  artifactKey: Guid(f5beec8d0448a164abbd8bc1c3bd3318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_4.asset using Guid(f5beec8d0448a164abbd8bc1c3bd3318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd041f2cc087487331db0dfde41fa1413') in 0.012769 seconds 
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_31.asset
+  artifactKey: Guid(d2cf55bf6904a124fb0942015c11a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_31.asset using Guid(d2cf55bf6904a124fb0942015c11a93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441ca40238933d43d05bd451323fe8c1') in 0.007459 seconds 
+  Import took 0.009749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 1.asset
+  artifactKey: Guid(a69374d8391d0f14b839dd5d59797d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 1.asset using Guid(a69374d8391d0f14b839dd5d59797d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8d4e5ab15a635335e499a1c39bd70d') in 0.008074 seconds 
+  Import took 0.010307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/調色盤/TX Village Props Sunflower A.asset
+  artifactKey: Guid(1c9d84b696b7bad48bde89ed39c5c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props Sunflower A.asset using Guid(1c9d84b696b7bad48bde89ed39c5c9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c24d9fdfa7323ad6b729aa2284334b') in 0.009946 seconds 
+  Import took 0.012247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/調色盤/TX Tileset Ground_16 1.asset
+  artifactKey: Guid(7f2d65c5f6b2ff44e8671a5445b9c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_16 1.asset using Guid(7f2d65c5f6b2ff44e8671a5445b9c898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db893916713891ddef886ad669098848') in 0.007386 seconds 
+  Import took 0.009654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 L B 1.asset
+  artifactKey: Guid(490d27bf77a703c4dab61aa7f895397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 L B 1.asset using Guid(490d27bf77a703c4dab61aa7f895397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c07b4904d3e0460caf9824ad314bb6') in 0.009675 seconds 
+  Import took 0.012135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/調色盤/TX Tileset Ground_26.asset
+  artifactKey: Guid(41ab24cdf9c71134b93e2bf50cbbd831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_26.asset using Guid(41ab24cdf9c71134b93e2bf50cbbd831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd3e17a6c345932aa9048fa6999b170') in 0.007793 seconds 
+  Import took 0.010183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 7.asset
+  artifactKey: Guid(898507c7166edb0488ee7ea971e153f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 7.asset using Guid(898507c7166edb0488ee7ea971e153f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e466edfb51cd1bc7efed6efded7f3685') in 0.008699 seconds 
+  Import took 0.011070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/調色盤/TX Tileset Ground_34 1.asset
+  artifactKey: Guid(bb95183b3d2d0cc439003e5ecee3e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_34 1.asset using Guid(bb95183b3d2d0cc439003e5ecee3e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc57df839ab3ad35bbfbc58b88fc4147') in 0.007521 seconds 
+  Import took 0.009838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 R B 1.asset
+  artifactKey: Guid(b53ed5c584d7c7649a2a1a4fb645b76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 R B 1.asset using Guid(b53ed5c584d7c7649a2a1a4fb645b76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7132d968cfc63a3cd9b5be028943dd7e') in 0.009841 seconds 
+  Import took 0.012093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 6.asset
+  artifactKey: Guid(8041d6b81c2ee4c4e831a6d906502e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 6.asset using Guid(8041d6b81c2ee4c4e831a6d906502e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ace1911edde0701d2fd7edca40a571') in 0.008471 seconds 
+  Import took 0.010718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_3 1.asset
+  artifactKey: Guid(00027534b47aaf84ca53a006b1c79dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_3 1.asset using Guid(00027534b47aaf84ca53a006b1c79dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c1d90766e60429f7db071a57af3d8b') in 0.006962 seconds 
+  Import took 0.009186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 3.asset
+  artifactKey: Guid(45224967db0c94748ba82f84d4449ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 3.asset using Guid(45224967db0c94748ba82f84d4449ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8657e71f81dcce93d92c543ad176c86a') in 0.009133 seconds 
+  Import took 0.011410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken S.asset
+  artifactKey: Guid(f684134f3336bc641887d5d3de987d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken S.asset using Guid(f684134f3336bc641887d5d3de987d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab8fa93f9ec4f394b1c88ba7f894c9b') in 0.008710 seconds 
+  Import took 0.011099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground_25 1.asset
+  artifactKey: Guid(cab7aba9087537942a159f6ef1188574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_25 1.asset using Guid(cab7aba9087537942a159f6ef1188574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67663feea8681a006d0a091be6fa397') in 0.007928 seconds 
+  Import took 0.010221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 8.asset
+  artifactKey: Guid(c58621a806dc89e438baaa3e197e0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 8.asset using Guid(c58621a806dc89e438baaa3e197e0596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b122cd07a1cd13772806c2da6717428a') in 0.009125 seconds 
+  Import took 0.011398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/調色盤/TX Tileset Ground_33.asset
+  artifactKey: Guid(db57bc365c3c8154bb2b4cb0371c5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_33.asset using Guid(db57bc365c3c8154bb2b4cb0371c5c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784340829fba0da8a45de7affcb59e63') in 0.009623 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground_23 1.asset
+  artifactKey: Guid(9c10157704d9073409052805cb77a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_23 1.asset using Guid(9c10157704d9073409052805cb77a989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f951eea1e826b5b6830b2cb8c8c3593e') in 0.007174 seconds 
+  Import took 0.009609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/調色盤/TX Tileset Ground_9 1.asset
+  artifactKey: Guid(fafee02f271714e4dac583e10a273132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_9 1.asset using Guid(fafee02f271714e4dac583e10a273132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08357af05dc41288211315c073aaa300') in 0.009191 seconds 
+  Import took 0.011423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/調色盤/TX Tileset Ground_27.asset
+  artifactKey: Guid(c95731207d6d39c4c96873cca380b1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_27.asset using Guid(c95731207d6d39c4c96873cca380b1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1cd5c34e86d41e793333f2a5c992c9') in 0.008170 seconds 
+  Import took 0.010670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/調色盤/TX Tileset Ground_1 1.asset
+  artifactKey: Guid(dacccbeb885b2d04cb082fce9c847254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_1 1.asset using Guid(dacccbeb885b2d04cb082fce9c847254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d35b0d772818ae858f1540609a94705') in 0.008515 seconds 
+  Import took 0.010739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/調色盤/TX Tileset Ground_10 1.asset
+  artifactKey: Guid(196e6b54f61381c46875fafdadcee9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_10 1.asset using Guid(196e6b54f61381c46875fafdadcee9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62727575c5a39b4ef35f906ac8da7a64') in 0.008844 seconds 
+  Import took 0.011340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground_14 1.asset
+  artifactKey: Guid(6023bc42a4aca1144b57df433da116b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_14 1.asset using Guid(6023bc42a4aca1144b57df433da116b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c8e527233b8c034b1ea0110ffc821f') in 0.010260 seconds 
+  Import took 0.012632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/調色盤/TX Tileset Ground_22.asset
+  artifactKey: Guid(7c14757764659244db1cae5fbea6a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_22.asset using Guid(7c14757764659244db1cae5fbea6a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a56e3b9011cad7a4832ad0063d193c') in 0.008819 seconds 
+  Import took 0.011176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/調色盤/TX Tileset Ground_21 1.asset
+  artifactKey: Guid(eaef7493e958c2841b2b047300add684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_21 1.asset using Guid(eaef7493e958c2841b2b047300add684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e1f1d574e74e562518f4b53bbb5b8f') in 0.007680 seconds 
+  Import took 0.010015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 2.asset
+  artifactKey: Guid(2216df5711b009945800aad17655bacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 2.asset using Guid(2216df5711b009945800aad17655bacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96aeeaefbadfb971c67d454c0a81e530') in 0.008759 seconds 
+  Import took 0.011175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/調色盤/TX Tileset Ground_16.asset
+  artifactKey: Guid(79382b177f06e794aa3985fa4adea319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_16.asset using Guid(79382b177f06e794aa3985fa4adea319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4200534fed743aafdbb0f9a63aad468f') in 0.010031 seconds 
+  Import took 0.012418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TR.asset
+  artifactKey: Guid(9f9407da9236ff042b63d3867f565d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TR.asset using Guid(9f9407da9236ff042b63d3867f565d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470b1dfe05aa341cdbc3b2dbb9646696') in 0.010661 seconds 
+  Import took 0.013113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground_32.asset
+  artifactKey: Guid(fcd1cdcd5dddd154d82118912c686fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_32.asset using Guid(fcd1cdcd5dddd154d82118912c686fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04dc5e01fa103a6590b5976715eda96') in 0.009067 seconds 
+  Import took 0.011378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/調色盤/TX Tileset Ground_29.asset
+  artifactKey: Guid(a2211d53f2c23db43be9206e8000cb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_29.asset using Guid(a2211d53f2c23db43be9206e8000cb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aebbd84a82cdbe03d450c2cb1efc5f') in 0.008277 seconds 
+  Import took 0.010730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 4.asset
+  artifactKey: Guid(a1a2bdb5b973c554f81230b8c2ec6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 4.asset using Guid(a1a2bdb5b973c554f81230b8c2ec6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75228a4839f67893b4d563ea9ecf4e13') in 0.007121 seconds 
+  Import took 0.009577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/調色盤/TX Tileset Ground_4 1.asset
+  artifactKey: Guid(11b8eaeecd120eb428d83be1ed90941c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_4 1.asset using Guid(11b8eaeecd120eb428d83be1ed90941c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057ee96ec9a15489f9fdde92eba5af8e') in 0.009260 seconds 
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/調色盤/TX Tileset Ground_20.asset
+  artifactKey: Guid(42691ede7f6f098488ecb1a0113f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_20.asset using Guid(42691ede7f6f098488ecb1a0113f7bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa947a96a03cae326ce43be9ccbea1a8') in 0.008798 seconds 
+  Import took 0.011202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/調色盤/TX Tileset Ground_33 1.asset
+  artifactKey: Guid(95e65c75b07798540af9785206763707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_33 1.asset using Guid(95e65c75b07798540af9785206763707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145c2f261aa81df08e20978cff3569ab') in 0.008395 seconds 
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken M.asset
+  artifactKey: Guid(715508ccdfe29b546ae18e0a5fa6fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken M.asset using Guid(715508ccdfe29b546ae18e0a5fa6fa2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6025889507065a5a70de449706a1a517') in 0.009371 seconds 
+  Import took 0.011620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Col T.asset
+  artifactKey: Guid(696bf97646502f64997503fd4beae689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Col T.asset using Guid(696bf97646502f64997503fd4beae689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1319fa747ef5150758afd462f055de') in 0.007581 seconds 
+  Import took 0.009919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row L.asset
+  artifactKey: Guid(4bff3b019dbe4e043a834b4ab5ab519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row L.asset using Guid(4bff3b019dbe4e043a834b4ab5ab519c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe2f17e69819de2336d2d604366b643') in 0.008109 seconds 
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/調色盤/TX Tileset Ground_8 1.asset
+  artifactKey: Guid(cc47ac87594031d42aaf22d2d17e1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_8 1.asset using Guid(cc47ac87594031d42aaf22d2d17e1b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c2dbbc0f557a8b39c4f9975612a2c8') in 0.009096 seconds 
+  Import took 0.011357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row R 1.asset
+  artifactKey: Guid(87e996368e26f644e955135871a560a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row R 1.asset using Guid(87e996368e26f644e955135871a560a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc17e0425bdbae07cf45ad3a81072ce') in 0.007236 seconds 
+  Import took 0.009534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/調色盤/TX Tileset Ground_24.asset
+  artifactKey: Guid(4a95071f738fb744d991b336035569da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_24.asset using Guid(4a95071f738fb744d991b336035569da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945bfaafac11d7a5ee7a71be7f70e486') in 0.007227 seconds 
+  Import took 0.009671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/調色盤/TX Tileset Ground_0 1.asset
+  artifactKey: Guid(b731fe1f93ce1eb42b205bcc31e10576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_0 1.asset using Guid(b731fe1f93ce1eb42b205bcc31e10576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4830e6f3c3eb1c6e238381d43b81b2') in 0.007740 seconds 
+  Import took 0.010019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/調色盤/TX Tileset Ground_15 1.asset
+  artifactKey: Guid(8bd9976294a63d74a906fbb2b5771511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_15 1.asset using Guid(8bd9976294a63d74a906fbb2b5771511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f3756cad763e1ca51a5b9ff5626595') in 0.007300 seconds 
+  Import took 0.009624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/調色盤/TX Tileset Ground_28.asset
+  artifactKey: Guid(369d0a84fadb29e4f8bf6e6009c491ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_28.asset using Guid(369d0a84fadb29e4f8bf6e6009c491ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df61d15ccb1215d34ebea647d6aa1110') in 0.007432 seconds 
+  Import took 0.009848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/調色盤/TX Tileset Ground_34.asset
+  artifactKey: Guid(e409ae39cc5c7df4ca06da4c46471dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_34.asset using Guid(e409ae39cc5c7df4ca06da4c46471dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6ee919f41abc6d093e5c379003abe1') in 0.007680 seconds 
+  Import took 0.009974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/調色盤/TX Tileset Ground_6.asset
+  artifactKey: Guid(37ab63dc7e9e142448feb7d15208dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_6.asset using Guid(37ab63dc7e9e142448feb7d15208dd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b269258e3785c689d5a0c95d928f330c') in 0.008092 seconds 
+  Import took 0.010443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/調色盤/TX Tileset Ground_7 1.asset
+  artifactKey: Guid(15d3b3e7437394f4aa4c3d342dfcf108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_7 1.asset using Guid(15d3b3e7437394f4aa4c3d342dfcf108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67da57e4204a8f8b12f3dd3f637ad64') in 0.006955 seconds 
+  Import took 0.009277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground_31 1.asset
+  artifactKey: Guid(53c62df5d24010f46bb6456ef34c6ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_31 1.asset using Guid(53c62df5d24010f46bb6456ef34c6ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0114b984934f2f4bed033a91dcc2c3') in 0.007497 seconds 
+  Import took 0.009766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/調色盤/TX Tileset Ground_27 1.asset
+  artifactKey: Guid(bd29009e52fcdae489f7f9d3ba7ef3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_27 1.asset using Guid(bd29009e52fcdae489f7f9d3ba7ef3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2387ec1c75ea93331c6296cc72e32f02') in 0.007650 seconds 
+  Import took 0.009938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground_30 1.asset
+  artifactKey: Guid(94bcab0c36ad48949b8adc73bd4fce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_30 1.asset using Guid(94bcab0c36ad48949b8adc73bd4fce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d70eb448af2a42d1891f97e1b9958c') in 0.007210 seconds 
+  Import took 0.009510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/調色盤/TX Tileset Ground_23.asset
+  artifactKey: Guid(c2ffca4fa4be5ab45974b188a5b9a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_23.asset using Guid(c2ffca4fa4be5ab45974b188a5b9a88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b7b0a8731242baf931a20293aefce') in 0.008184 seconds 
+  Import took 0.010471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground_35 1.asset
+  artifactKey: Guid(0f79af1b0e088954c8bc5d8bc59229e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_35 1.asset using Guid(0f79af1b0e088954c8bc5d8bc59229e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c8887d7963b2f756af1026f8b163a') in 0.010425 seconds 
+  Import took 0.012668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/調色盤/TX Tileset Ground_19.asset
+  artifactKey: Guid(54f27d15f1f708540ab75a2c9ce1f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_19.asset using Guid(54f27d15f1f708540ab75a2c9ce1f84e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f765cc770402900701b985dd9b7317c') in 0.008723 seconds 
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/調色盤/TX Village Props Bush A.asset
+  artifactKey: Guid(cca545ee8b8bd324e9c665ac3215abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props Bush A.asset using Guid(cca545ee8b8bd324e9c665ac3215abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96068133fcf546eca54e496807f2beba') in 0.009009 seconds 
+  Import took 0.011308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/調色盤/TX Tileset Ground_32 1.asset
+  artifactKey: Guid(bc6283b32a8920344a15ecb4ad028c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_32 1.asset using Guid(bc6283b32a8920344a15ecb4ad028c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742d8df2f5d524126197daac9367b62') in 0.007099 seconds 
+  Import took 0.009431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row M 1.asset
+  artifactKey: Guid(527d22cb62bae6247b74cb01abc86c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row M 1.asset using Guid(527d22cb62bae6247b74cb01abc86c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8689038f46d739e3160748c6ef98421d') in 0.008204 seconds 
+  Import took 0.010509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/調色盤/TX Tileset Ground_9.asset
+  artifactKey: Guid(270910a78d4b6364c81e760d332a63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_9.asset using Guid(270910a78d4b6364c81e760d332a63d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2545df2db7ae4fa5b4809b632b37ee') in 0.007149 seconds 
+  Import took 0.009462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/調色盤/TX Tileset Ground_18.asset
+  artifactKey: Guid(6e30091b1744a9a49af6612cfe74de58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_18.asset using Guid(6e30091b1744a9a49af6612cfe74de58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c077ac82c9f758640e18e8652978342') in 0.007295 seconds 
+  Import took 0.009622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 L T.asset
+  artifactKey: Guid(18da025c0eaa47745b8350e7ee4008aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 L T.asset using Guid(18da025c0eaa47745b8350e7ee4008aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4185ed92ceb041788a770a470c632c1d') in 0.009249 seconds 
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Col T 1.asset
+  artifactKey: Guid(5ed57451e194cbf40aa2a05f4facebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Col T 1.asset using Guid(5ed57451e194cbf40aa2a05f4facebb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5512bfea06d7d31e7be6e36b8d3448') in 0.008916 seconds 
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/調色盤/TX Tileset Ground_17.asset
+  artifactKey: Guid(6c919df8ce90f5643b73367a131f5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_17.asset using Guid(6c919df8ce90f5643b73367a131f5ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd16927c6963ce9efc6153fe59886c3e') in 0.007436 seconds 
+  Import took 0.009844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 3.asset
+  artifactKey: Guid(d4d9a1ebe3ff2ad4f9cbd2ca547860cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 3.asset using Guid(d4d9a1ebe3ff2ad4f9cbd2ca547860cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a43c715ce9888c96189811e83a4ac87') in 0.007597 seconds 
+  Import took 0.009999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/調色盤/TX Tileset Ground_8.asset
+  artifactKey: Guid(eb90b04a7df867245a4a35a77c2e773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_8.asset using Guid(eb90b04a7df867245a4a35a77c2e773a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0472816a0dda0067f6e3e4861c72cf') in 0.007838 seconds 
+  Import took 0.010196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/調色盤/TX Tileset Ground_6 1.asset
+  artifactKey: Guid(22969a83254e2ca4fa67648310767575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_6 1.asset using Guid(22969a83254e2ca4fa67648310767575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6d3d127d9b7602e1d757ae048cf73a') in 0.007161 seconds 
+  Import took 0.009523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/調色盤/TX Tileset Ground_13.asset
+  artifactKey: Guid(664e47851afc18a48b5cde997b7b6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_13.asset using Guid(664e47851afc18a48b5cde997b7b6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ea501e5ba15c46ba1b4e6c438994e3') in 0.009211 seconds 
+  Import took 0.011491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/調色盤/TX Village Props Campfire.asset
+  artifactKey: Guid(83665a7bbbd0f9e4b906aa6d45914671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props Campfire.asset using Guid(83665a7bbbd0f9e4b906aa6d45914671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ee55b5a69e6485ecccebe853085652') in 0.010140 seconds 
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken L.asset
+  artifactKey: Guid(f32346da01188c3458275bc02d5ae3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken L.asset using Guid(f32346da01188c3458275bc02d5ae3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57f8e3c1d3556ba78c45d1753e606af') in 0.008568 seconds 
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground_22 1.asset
+  artifactKey: Guid(a0cd71e5737695a4c8fa6a3c01a1dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_22 1.asset using Guid(a0cd71e5737695a4c8fa6a3c01a1dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece2006850ef72dd8e58d461f1266d58') in 0.007377 seconds 
+  Import took 0.009741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 L T 1.asset
+  artifactKey: Guid(9f7332dad8a80f64bbaa485bcc73ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 L T 1.asset using Guid(9f7332dad8a80f64bbaa485bcc73ba99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd15c75764d2834610545f993f30992') in 0.009513 seconds 
+  Import took 0.011782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/調色盤/地形(無碰撞).prefab
+  artifactKey: Guid(8d76895e071183c4c9cf987cc4b3d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形(無碰撞).prefab using Guid(8d76895e071183c4c9cf987cc4b3d522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0db3150e3617132e716a39f49d30b0') in 0.041778 seconds 
+  Import took 0.044592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/調色盤/TX Tileset Ground_14.asset
+  artifactKey: Guid(54c48c63b5a336d4b997ee86b08373df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_14.asset using Guid(54c48c63b5a336d4b997ee86b08373df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0d46e7db337217db8ab023413c47d1') in 0.009097 seconds 
+  Import took 0.011399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/調色盤/TX Tileset Ground_26 1.asset
+  artifactKey: Guid(89dc21de1e6ad8a4e9ed09772b9dec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_26 1.asset using Guid(89dc21de1e6ad8a4e9ed09772b9dec72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c21c9f3e085556521249fbcfe5eb4e') in 0.007507 seconds 
+  Import took 0.009818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/調色盤/TX Tileset Ground_21.asset
+  artifactKey: Guid(8e0052dcdc0f8844684dd0bec75a5da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_21.asset using Guid(8e0052dcdc0f8844684dd0bec75a5da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c04be78a5ffc13e25fbda7eda6e8f1') in 0.007884 seconds 
+  Import took 0.010510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken T 1.asset
+  artifactKey: Guid(78db32056c8e1d44ab261ce726fe33a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken T 1.asset using Guid(78db32056c8e1d44ab261ce726fe33a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f812ef6cba0d82e1c0c4f4992ba36b9') in 0.007288 seconds 
+  Import took 0.009769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/調色盤/TX Tileset Ground_17 1.asset
+  artifactKey: Guid(67ec1d00326496442b65842217c79d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_17 1.asset using Guid(67ec1d00326496442b65842217c79d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2076a06790f37ff63a628af7a8470e3') in 0.007771 seconds 
+  Import took 0.010123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/調色盤/TX Tileset Ground_20 1.asset
+  artifactKey: Guid(c93024c6d43acc646849dced24bf89b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_20 1.asset using Guid(c93024c6d43acc646849dced24bf89b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb82e423736abf3fbcad4c1821f137') in 0.008849 seconds 
+  Import took 0.011162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/調色盤/TX Tileset Ground_7.asset
+  artifactKey: Guid(2f61307aa874d4e419465b9987d9ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_7.asset using Guid(2f61307aa874d4e419465b9987d9ef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e3c0d3edb65e4dfdac4fe567d8d372') in 0.007148 seconds 
+  Import took 0.009421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_15.asset
+  artifactKey: Guid(9596f2b66f73fd547967404b5b89894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_15.asset using Guid(9596f2b66f73fd547967404b5b89894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e99f40d2dc4214911699b8ea5e8757') in 0.008297 seconds 
+  Import took 0.010602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 5.asset
+  artifactKey: Guid(9d21e021c6ff8824b9be84439cd3b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 5.asset using Guid(9d21e021c6ff8824b9be84439cd3b39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b2a4cbf69582357c2a5699d8439d55') in 0.008204 seconds 
+  Import took 0.010549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/調色盤/TX Tileset Ground_11.asset
+  artifactKey: Guid(bafb8af409119a7418b5e30aa49eecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_11.asset using Guid(bafb8af409119a7418b5e30aa49eecd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9314c698c5475cfae06b0b8400cfd69f') in 0.008598 seconds 
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_28 1.asset
+  artifactKey: Guid(3a59264a122b24c4f9daa7936076bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_28 1.asset using Guid(3a59264a122b24c4f9daa7936076bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6788070e7e1836927cbf787643f95974') in 0.007379 seconds 
+  Import took 0.009653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken T.asset
+  artifactKey: Guid(7fef75f98a7a40d42aa5e16356ee6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken T.asset using Guid(7fef75f98a7a40d42aa5e16356ee6250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf09c194451148038f7c3d70509092c2') in 0.008573 seconds 
+  Import took 0.010911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken TR 1.asset
+  artifactKey: Guid(e48f0f1888b72a442bdd0c80eac9eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken TR 1.asset using Guid(e48f0f1888b72a442bdd0c80eac9eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e6b3ba321f3d4f95193fc7e4b9d1c9') in 0.009507 seconds 
+  Import took 0.011836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 R T 1.asset
+  artifactKey: Guid(b38480bd90481364c867f14d715b73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 R T 1.asset using Guid(b38480bd90481364c867f14d715b73fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a1693bbe73e86e0ee13ee8af171b85') in 0.008563 seconds 
+  Import took 0.010846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/調色盤/TX Tileset Ground_35.asset
+  artifactKey: Guid(cd5f4f80955ba964698d1a5bb0bdcc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_35.asset using Guid(cd5f4f80955ba964698d1a5bb0bdcc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a14d39241faf1609e308278965381f') in 0.007421 seconds 
+  Import took 0.009758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/調色盤/TX Tileset Ground_5.asset
+  artifactKey: Guid(068e42967c6b25640a86d19e0b44023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_5.asset using Guid(068e42967c6b25640a86d19e0b44023b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5c65c3472371eb34520bb704e15847') in 0.009121 seconds 
+  Import took 0.011411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground_1.asset
+  artifactKey: Guid(94e13288c585d4e4ba4bf0825cc76321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_1.asset using Guid(94e13288c585d4e4ba4bf0825cc76321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d4b9908d6b7d0a9ed98c2d52bfcb99') in 0.007370 seconds 
+  Import took 0.009919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/調色盤/TX Tileset Ground_30.asset
+  artifactKey: Guid(2e42169ea17357b479702200e33a759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_30.asset using Guid(2e42169ea17357b479702200e33a759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61dd0402489fc1cfc10de8f8ac7e08c6') in 0.007280 seconds 
+  Import took 0.009603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 R T.asset
+  artifactKey: Guid(66dc86c41aa2cc540b76f730bf1e830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 R T.asset using Guid(66dc86c41aa2cc540b76f730bf1e830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bbd5d2f0cbf336f4b53379544250b6') in 0.008470 seconds 
+  Import took 0.010782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 7.asset
+  artifactKey: Guid(c5862a7787d899642a826a4983549a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 7.asset using Guid(c5862a7787d899642a826a4983549a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334cb5ff68bff272185df26ecda80cd') in 0.007544 seconds 
+  Import took 0.009911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/調色盤/TX Tileset Ground_11 1.asset
+  artifactKey: Guid(61b3bc02357431f41b12ab609345f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_11 1.asset using Guid(61b3bc02357431f41b12ab609345f2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d14c25a96bc791b32747dbce5421fa') in 0.007671 seconds 
+  Import took 0.010052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/調色盤/TX Tileset Ground_29 1.asset
+  artifactKey: Guid(ea08577b403c2f54d988f48bc6e2e0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_29 1.asset using Guid(ea08577b403c2f54d988f48bc6e2e0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5781d5b7bb1a63c60ed1df28b7e150') in 0.008038 seconds 
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/調色盤/TX Village Props Sunflower B.asset
+  artifactKey: Guid(64ee9de01852e214d9d9566c7d49a3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Village Props Sunflower B.asset using Guid(64ee9de01852e214d9d9566c7d49a3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ede877c639b8dd3c16f03b64448ee5') in 0.007804 seconds 
+  Import took 0.010131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken S 1.asset
+  artifactKey: Guid(7cb006c361718d442834322bdc693a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken S 1.asset using Guid(7cb006c361718d442834322bdc693a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89938c0c0ea8d2087b66b3cb7a3a495') in 0.009312 seconds 
+  Import took 0.011698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X1 R B.asset
+  artifactKey: Guid(82d05aa2c72226b40af5a69fbfe67b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X1 R B.asset using Guid(82d05aa2c72226b40af5a69fbfe67b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cc64f3fa632da4c4ae61ad83cae949') in 0.007535 seconds 
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 4.asset
+  artifactKey: Guid(c0eea47809a8f094e8bf3ccc3ae6789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 4.asset using Guid(c0eea47809a8f094e8bf3ccc3ae6789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f423d87f6ac152dc331076189c1b1b') in 0.007587 seconds 
+  Import took 0.009909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 2.asset
+  artifactKey: Guid(1ef381d85326d084eba9cf30043dc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 2.asset using Guid(1ef381d85326d084eba9cf30043dc198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bda87f25e055cd3f2e2fc817314b92') in 0.007184 seconds 
+  Import took 0.009501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 L 8.asset
+  artifactKey: Guid(e27ffef8a590b494c81a388333c5a4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 L 8.asset using Guid(e27ffef8a590b494c81a388333c5a4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935fe0b7e85e659be92ac4242e42d2a3') in 0.007589 seconds 
+  Import took 0.009969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/調色盤/地形.prefab
+  artifactKey: Guid(1002fc670f6f03e42af5b2157ae5d57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/地形.prefab using Guid(1002fc670f6f03e42af5b2157ae5d57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a0594c6cf6f197e61fe19370fdfee9') in 0.023112 seconds 
+  Import took 0.026590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/調色盤/TX Tileset Ground_12.asset
+  artifactKey: Guid(f8caa2bcab3392649bb0fdb7b71ca6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_12.asset using Guid(f8caa2bcab3392649bb0fdb7b71ca6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6c4007e4633f704f03e97931beea54') in 0.007250 seconds 
+  Import took 0.009585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Row M.asset
+  artifactKey: Guid(42123121c2d16454e8a9f3d244b87a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Row M.asset using Guid(42123121c2d16454e8a9f3d244b87a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d0d7ed0469143a6eb4004e36fbdb7e') in 0.006835 seconds 
+  Import took 0.008955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/調色盤/TX Tileset Ground_5 1.asset
+  artifactKey: Guid(9e167e6144fd32641b2da7f4b444e63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_5 1.asset using Guid(9e167e6144fd32641b2da7f4b444e63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c907230a2f2e20406c7c0b783f12a3') in 0.006911 seconds 
+  Import took 0.009030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground_25.asset
+  artifactKey: Guid(6be2e8a1974036a4c85d7b9f04cdb757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_25.asset using Guid(6be2e8a1974036a4c85d7b9f04cdb757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd69b7823cafbe0466d5b8832faea9f') in 0.006889 seconds 
+  Import took 0.008958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/調色盤/TX Tileset Ground_2 1.asset
+  artifactKey: Guid(c82a0674d0ca674459201212d5f91afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_2 1.asset using Guid(c82a0674d0ca674459201212d5f91afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c56675e8dda481923bca97241b7b3b') in 0.006964 seconds 
+  Import took 0.009140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/調色盤/TX Tileset Ground_24 1.asset
+  artifactKey: Guid(5f9814e0cda383346bf1e52e34895ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_24 1.asset using Guid(5f9814e0cda383346bf1e52e34895ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3485a51b4f42d100af6c82ef833688') in 0.007624 seconds 
+  Import took 0.009661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/調色盤/雜物.prefab
+  artifactKey: Guid(f17f20dd13f38aa40aefeab219fdf1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/雜物.prefab using Guid(f17f20dd13f38aa40aefeab219fdf1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91c4d00e911459b47c965f4cd29d88e') in 0.010511 seconds 
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/調色盤/TX Tileset Ground_12 1.asset
+  artifactKey: Guid(b2b536febd8a9d24fa3380a30c659200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_12 1.asset using Guid(b2b536febd8a9d24fa3380a30c659200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5067bc19b31246404e28b6dbec0d58') in 0.007028 seconds 
+  Import took 0.009212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/調色盤/TX Tileset Ground_19 1.asset
+  artifactKey: Guid(a51a9554b850cdb45862e50c6d440fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground_19 1.asset using Guid(a51a9554b850cdb45862e50c6d440fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39087d356aba5b30aae3572f3398a83') in 0.006963 seconds 
+  Import took 0.008904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken R.asset
+  artifactKey: Guid(95917e4eb6cf6a6408a1a3401c27b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken R.asset using Guid(95917e4eb6cf6a6408a1a3401c27b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b054257c5f9195ba3ee53035f06b3a8') in 0.007847 seconds 
+  Import took 0.010039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken Slope X2 R 1.asset
+  artifactKey: Guid(f52d5e379c2395f4c9b667d728804e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken Slope X2 R 1.asset using Guid(f52d5e379c2395f4c9b667d728804e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5c5f8be8455e7d54efb30d212648b9') in 0.007062 seconds 
+  Import took 0.009369 seconds .
+
