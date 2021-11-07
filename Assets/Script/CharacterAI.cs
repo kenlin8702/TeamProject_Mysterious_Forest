@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -22,7 +23,8 @@ public class CharacterAI : MonoBehaviour
     private Animator ani;
     private AudioSource aud;
     private float h;
-
+    private int chatcount = 0;
+    private bool[] chatComplete = new bool[2];
     private bool isGrounded;
     private bool dead;
     /// <summary>
@@ -80,6 +82,9 @@ public class CharacterAI : MonoBehaviour
         ani = GetComponent<Animator>();
         aud = GetComponent<AudioSource>();
         h = 1f;
+        for (int i = 0; i < chatComplete.Length; i++) {
+            chatComplete[i] = false;
+        }
     }
 
     private void Update()
@@ -101,7 +106,6 @@ public class CharacterAI : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position + v2GroundOffset, radiusGround);
     }
-
 
     private void MoveInput()
     {
@@ -163,9 +167,18 @@ public class CharacterAI : MonoBehaviour
     {
         Collider2D hitbox = Physics2D.OverlapCircle(this.transform.position + v2GroundOffset, radiusGround, 1 << 9);
         bool hitted = hitbox && hitbox.name.Contains("對話觸發");
+        int contactCount = hitbox.contactCount;
+        if (contactCount > contacts.Length)
+            contacts = new ContactPoint2D[contactCount];
+        collision.GetContacts(contacts);
+        hitbox.GetComponent<Tilemap>().SetTile(hitbox.GetComponent<Tilemap>().WorldToCell(hitPosition), null);
         if (hitted && h != 0f)
         {
             h = 0f;
+        }
+
+        if (h == 0f) {
+            chatcount++;
         }
     }
     /// <summary>
