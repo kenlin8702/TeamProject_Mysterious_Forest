@@ -1,0 +1,230 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 32702 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnBox/TeamProject_Mysterious_Forest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61420
+Successfully changed project path to: E:/UnBox/TeamProject_Mysterious_Forest
+E:/UnBox/TeamProject_Mysterious_Forest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnBox/TeamProject_Mysterious_Forest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5500 XT (ID=0x7340)
+    Vendor:   
+    VRAM:     4056 MB
+    Driver:   27.20.14501.28009
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001753 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1485ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (364ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Domain Reload Profiling:
+	ReloadAssembly (941ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2092 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 2.533500 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.228200 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Character/Cat Sprite Sheet.png
+  artifactKey: Guid(1c354ab1a81066a4989a3fbe2671f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Cat Sprite Sheet.png using Guid(1c354ab1a81066a4989a3fbe2671f01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5631f668e64a3a7d335772193b301e') in 0.173013 seconds 
+  Import took 0.175994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Scenes/開始畫面.unity
+  artifactKey: Guid(a7a7fb1163c80824ea0f5d785d98d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/開始畫面.unity using Guid(a7a7fb1163c80824ea0f5d785d98d0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ad396da9beb85b43aa33af76670d84') in 0.004889 seconds 
+  Import took 0.007577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Character/Warrior_Sheet-Effect.png
+  artifactKey: Guid(91476fc2ebb5ceb49b95e2f74f63f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Warrior_Sheet-Effect.png using Guid(91476fc2ebb5ceb49b95e2f74f63f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98111c19f1fd711867a87d96535da28') in 0.183126 seconds 
+  Import took 0.186222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.917677 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27944bdea339c97c39027c7eea529c') in 0.005108 seconds 
+  Import took 0.007998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.759466 seconds.
+  path: Assets/Scenes/遊戲畫面.unity
+  artifactKey: Guid(ccf1396975674dc46b979da8747cf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/遊戲畫面.unity using Guid(ccf1396975674dc46b979da8747cf92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0fcb96c0fae6a4d182ac9d2adc7f81b') in 0.004434 seconds 
+  Import took 0.007406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 314.473664 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken B 1.asset
+  artifactKey: Guid(2b20c9fd66c7ce24d9b99db4f032e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken B 1.asset using Guid(2b20c9fd66c7ce24d9b99db4f032e93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e278a6ecb05206eb93fef21c3c2c62') in 0.018011 seconds 
+  Import took 0.021576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken B.asset
+  artifactKey: Guid(2cf89a65473c18f4292b18009da321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken B.asset using Guid(2cf89a65473c18f4292b18009da321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d3a1024f47d11859f06d5ec3b4f033') in 0.010819 seconds 
+  Import took 0.013762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken BL.asset
+  artifactKey: Guid(c23b0781641a9e344908365f35579662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken BL.asset using Guid(c23b0781641a9e344908365f35579662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5716701a02c8388e617df438b14dfb6c') in 0.008391 seconds 
+  Import took 0.011359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/調色盤/TX Tileset Ground Darken BL 1.asset
+  artifactKey: Guid(9b14cb4c0a5a66b46a14ee4056480e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/調色盤/TX Tileset Ground Darken BL 1.asset using Guid(9b14cb4c0a5a66b46a14ee4056480e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384f1b4089f19234678b271389282383') in 0.025812 seconds 
+  Import took 0.028687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.036177 seconds.
+  path: Assets/其他/赫綵設計學院.png
+  artifactKey: Guid(da82cfb2ad546eb4391f8f1cd09caaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他/赫綵設計學院.png using Guid(da82cfb2ad546eb4391f8f1cd09caaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e47fddeb43730d1e94a3df7d41d6349') in 0.014885 seconds 
+  Import took 0.017769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 784.762736 seconds.
+  path: Assets/其他/赫綵設計學院.png
+  artifactKey: Guid(da82cfb2ad546eb4391f8f1cd09caaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他/赫綵設計學院.png using Guid(da82cfb2ad546eb4391f8f1cd09caaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f366427a87903eca83afb22d8c2ca6') in 0.012886 seconds 
+  Import took 0.021197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.910453 seconds.
+  path: Assets/其他/赫綵設計學院 1.png
+  artifactKey: Guid(f911a209bd17d42438960e39801ff2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/其他/赫綵設計學院 1.png using Guid(f911a209bd17d42438960e39801ff2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69203f0076fe9efa3d944dc8740f8c3b') in 0.011666 seconds 
+  Import took 0.014621 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
